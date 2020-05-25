@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HKKitConfig"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "这是一个基础封装的UIKit, 和暗黑颜色封装，字体宽高大小适配等"
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
 #spec.source_files = "HKBaseConfig.h"
-spec.source_files = 'HKBaseConfig.h', 'HKKitConfig/**/*.{h,m}'
+spec.source_files = "HKBaseConfig.h", "HKKitConfig/HKFixFloat/*.{h,m}","HKKitConfig/HKColor/*.{h,m}","HKKitConfig/HKFontFloat/*.{h,m}","HKKitConfig/HKScrollView/*.{h,m}","HKKitConfig/HKTabelViewCell/*.{h,m}","HKKitConfig/HKUIButton/*.{h,m}","HKKitConfig/HKUILabel/*.{h,m}","HKKitConfig/HKUItextField/*.{h,m}","HKKitConfig/HKView/*.{h,m}","HKKitConfig/*"
   
  
  
