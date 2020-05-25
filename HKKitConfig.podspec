@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HKKitConfig"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "这是一个基础封装的UIKit, 和暗黑颜色封装，字体宽高大小适配等"
 
   # This description is used to generate tags and improve search results.
@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
   #
 
    #spec.platform     = :ios
-   spec.platform     = :ios, "9.0"
+   spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "9.0"
@@ -92,7 +92,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-spec.source_files = "HKBaseConfig.h"
+#spec.source_files = "HKBaseConfig.h"
+spec.source_files = 'HKBaseConfig.h', 'HKKitConfig/**/*.{h,m}'
   
  
 
