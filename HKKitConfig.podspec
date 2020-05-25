@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HKKitConfig"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "这是一个基础封装的UIKit, 和暗黑颜色封装，字体宽高大小适配等"
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
   
-    这是一个基础封装的UIKit, 和暗黑颜色封装，字体宽高大小适配等 version：0.0.1
+    这是一个基础封装的UIKit, 和暗黑颜色封装，字体宽高大小适配等 version：1.0.0
                    DESC
 
   spec.homepage     = "https://github.com/zhangshouhai/HKKitConfig"
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/zhangshouhai/HKKitConfig.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/zhangshouhai/HKKitConfig.git", :tag => "v#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
