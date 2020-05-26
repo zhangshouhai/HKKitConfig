@@ -7,8 +7,7 @@
 
 
 支持pod 管理：
-pod  'HKKitConfig' , :git => 'https://github.com/zhangshouhai/HKKitConfig.git'
-
+pod  'HKKitConfig' , : git => 'https://github.com/zhangshouhai/HKKitConfig.git'
 
 
 
