@@ -5,8 +5,6 @@
 
 
 
-V : 1.0.2
-
 
 支持pod 管理：
 pod  'HKKitConfig' , :git => 'https://github.com/zhangshouhai/HKKitConfig.git'
