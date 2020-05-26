@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
 #spec.source_files = "HKBaseConfig.h"
-    spec.source_files = "Classes/**/*.h", "Classes/**/*.m","HKBaseConfig.h"
+    spec.source_files = "Classes/**/*.h","HKBaseConfig.h"
    
 
 #spec.exclude_files = "Classes/Exclude"
