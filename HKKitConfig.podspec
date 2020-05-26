@@ -93,7 +93,11 @@ Pod::Spec.new do |spec|
   #
 
 #spec.source_files = "HKBaseConfig.h"
-spec.source_files = "HKBaseConfig.h", "HKKitConfig/HKFixFloat/*.{h,m}","HKKitConfig/HKColor/*.{h,m}","HKKitConfig/HKFontFloat/*.{h,m}","HKKitConfig/HKScrollView/*.{h,m}","HKKitConfig/HKTabelViewCell/*.{h,m}","HKKitConfig/HKUIButton/*.{h,m}","HKKitConfig/HKUILabel/*.{h,m}","HKKitConfig/HKUItextField/*.{h,m}","HKKitConfig/HKView/*.{h,m}","HKKitConfig/*"
+spec.source_files = "HKBaseConfig.h",
+    "HKKitConfig/**/*.{h,m}",
+
+    "HKKitConfig/*",
+    "Module/*.modulemap"
   
  
  
